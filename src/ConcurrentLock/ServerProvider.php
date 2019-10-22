@@ -6,7 +6,7 @@
  * Time:2019/10/21 11:55
  */
 
-namespace WangWei\Lock\ConcurrentLock;
+namespace Wei\Lock\ConcurrentLock;
 
 
 use Pimple\Container;

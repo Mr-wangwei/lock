@@ -6,7 +6,7 @@
  * Time:2019/10/21 11:32
  */
 
-namespace WangWei\Lock\Kernel;
+namespace Wei\Lock\Kernel;
 
 
 use Pimple\Container;

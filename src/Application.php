@@ -6,18 +6,18 @@
  * Time:2019/10/21 11:49
  */
 
-namespace WangWei\Lock;
+namespace Wei\Lock;
 
 
-use WangWei\Lock\ConcurrentLock\ServerProvider;
-use WangWei\Lock\Kernel\Providers\CacheProvider;
-use WangWei\Lock\Kernel\ServiceContainer;
+use Wei\Lock\ConcurrentLock\ServerProvider;
+use Wei\Lock\Kernel\Providers\CacheProvider;
+use Wei\Lock\Kernel\ServiceContainer;
 
 /**
  *
  * Class Application
  * @package WangWei\Lock
- * @property \WangWei\Lock\ConcurrentLock\LockSystem $lock
+ * @property \Wei\Lock\ConcurrentLock\LockSystem $lock
  */
 class Application extends ServiceContainer
 {

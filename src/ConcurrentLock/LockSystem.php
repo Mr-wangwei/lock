@@ -6,10 +6,10 @@
  * Time:2019/10/21 11:57
  */
 
-namespace WangWei\Lock\ConcurrentLock;
+namespace Wei\Lock\ConcurrentLock;
 
 
-use WangWei\Lock\Kernel\ServiceContainer;
+use Wei\Lock\Kernel\ServiceContainer;
 
 class LockSystem
 {

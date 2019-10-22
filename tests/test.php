@@ -8,9 +8,9 @@
 
 $config = require '../config/config.php';
 require '../vendor/autoload.php';
-$app = new \WangWei\Lock\Application($config);
+$app = new \Wei\Lock\Application($config);
 try {
-    $app->lock->setLock('pay+1000', 7200, 3);
+    $result = $app->lock->setLock('pay+1000', 7200, 3);
 } catch (\Exception $e) {
     //捕捉异常
 }
