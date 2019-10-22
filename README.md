@@ -3,7 +3,7 @@
 composer require "wangwei/lock";
 ```
 
-##使用
+## 使用
 ```php
 use WangWei\Lock\Application;
 
