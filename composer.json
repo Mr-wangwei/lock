@@ -1,5 +1,5 @@
 {
-  "name": "wei/lock",
+  "name": "wwei/lock",
   "description": "钱包锁",
   "type": "library",
   "require": {

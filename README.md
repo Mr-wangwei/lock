@@ -1,11 +1,11 @@
 ## 安装
 ```php
-composer require "wangwei/lock";
+composer require "wwei/lock";
 ```
 
 ## 使用
 ```php
-use WangWei\Lock\Application;
+use Wei\Lock\Application;
 
 $config = [
     'cache' => [
