@@ -1,5 +1,5 @@
 {
-  "name": "w/lock",
+  "name": "wv/lock",
   "description": "钱包锁",
   "type": "library",
   "require": {
