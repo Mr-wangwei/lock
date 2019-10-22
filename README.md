@@ -1,6 +1,6 @@
 ## 安装
 ```php
-composer require "wwei/lock";
+composer require "wv/lock";
 ```
 
 ## 使用
