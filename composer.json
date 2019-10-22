@@ -1,0 +1,25 @@
+{
+  "name": "wangwei/lock",
+  "description": "钱包锁",
+  "type": "library",
+  "require": {
+    "php": ">=7.0.0",
+    "dusank/knapsack": "^10.0",
+    "doctrine/cache": "^1.8",
+    "pimple/pimple": "^3.2",
+    "predis/predis": "^1.1",
+    "ext-memcached": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wangwei",
+      "email": "1194023603@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WangWei\\Lock\\": "src/"
+    }
+  }
+}
